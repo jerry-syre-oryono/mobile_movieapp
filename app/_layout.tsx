@@ -6,8 +6,8 @@ import './globals.css';
 // Define the root layout component.
 export default function RootLayout() {
   // The root layout uses a Stack navigator.
-  return <Stack>
-    <Stack.Screen name="index" options={{ headerShown: false }} />
-    <Stack.Screen name="movies/[id]" options={{ headerShown: false }} />
+  return <Stack screenOptions={{ headerShown: false }}>
+    <Stack.Screen name="(tabs)" />
+    <Stack.Screen name="movies/[id]" />
   </Stack>;
 }
