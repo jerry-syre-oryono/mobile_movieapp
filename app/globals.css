@@ -1,3 +1,6 @@
+/* Import Tailwind CSS's base styles. */
 @tailwind base;
+/* Import Tailwind CSS's component classes. */
 @tailwind components;
+/* Import Tailwind CSS's utility classes. */
 @tailwind utilities;
